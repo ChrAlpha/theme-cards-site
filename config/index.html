@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+<title>基本配置 | Theme Cards</title>
+<meta name="generator" content="Hexo 4.2.1">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/assets/icon/site.webmanifest">
+<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.16.2/styles/github.min.css">
+<link rel="stylesheet" href="/theme-doku/css/doku.css">
+
+</head>
+
+<body>
+    
+
+<nav id="doku-navbar" class="navbar is-spaced has-shadow">
+    <div class="container">
+        <div class="navbar-brand">
+            <!-- burger btn -->
+            <a role="button" class="navbar-burger burger" id="doku-sidebar-toggle">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+
+            <a class="navbar-item" href="http://theme-cards.ichr.me">
+                <h1 class="doku-navbar-title">
+                    <img src="/assets/icon/android-chrome-96x96.png" height="28">
+                    <span class="is-size-4">Theme Cards</span>
+                </h1>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                
+                    <a class="navbar-item" href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank">
+                        
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        
+                        
+                            <span>主题源码</span>
+                        
+                    </a>
+                
+                    <a class="navbar-item" href="https://github.com/ChrAlpha/theme-cards-docs" target="_blank">
+                        
+                        
+                            <span>使用文档</span>
+                        
+                    </a>
+                
+                    <a class="navbar-item" href="https://theme-cards.ichr.me/demo/" target="_blank">
+                        
+                        
+                            <span>主题 Demo</span>
+                        
+                    </a>
+                
+                <!-- navbar link -->
+                <!--<a class="navbar-item">
+                Home
+            </a>-->
+            </div>
+            <!-- i18n switch -->
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="dropdown is-right is-hoverable">
+                        <div class="dropdown-trigger">
+                            <button class="button" id="navbar-i18n-btn">
+                                <span class="icon is-small">
+                                    <i class="fas fa-globe-americas" aria-hidden="true"></i>
+                                </span>
+                                <span>Language</span>
+                                <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <a href="/config/" class="dropdown-item">
+                                    简体中文
+                                </a>
+                                <a href="/en/config/" class="dropdown-item">
+                                    English
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+        <section class="main-content">
+            
+
+
+<aside class="doku-sidebar" id="doku-sidebar">
+    <div class="doku-sidebar-content">
+        <div class="menu">
+            
+                <ul class="menu-list is-hidden-desktop">
+                    
+                        
+                            <li><a href="https://github.com/ChrAlpha/hexo-theme-cards">主题源码</span></a></li>
+                        
+                    
+                        
+                            <li><a href="https://github.com/ChrAlpha/theme-cards-docs">使用文档</span></a></li>
+                        
+                    
+                        
+                            <li><a href="https://theme-cards.ichr.me/demo/">主题 Demo</span></a></li>
+                        
+                    
+                </ul>
+            
+            <hr class="is-hidden-desktop">
+            
+                
+                    <ul class="menu-list">
+                        
+                            <li><a  href="/start/">开始使用</a></li>
+                        
+                            <li><a  href="/config/">基本配置</a></li>
+                        
+                            <li><a  href="/third-party/">第三方服务</a></li>
+                        
+                            <li><a  href="/expand/">拓展插件</a></li>
+                        
+                            <li><a  href="/expert/">进阶使用</a></li>
+                        
+                            <li><a  href="/pages/">独立页面</a></li>
+                        
+                            <li><a  href="/write/">开始创作</a></li>
+                        
+                    </ul>
+                
+            
+        </div>
+    </div>
+</aside>
+
+            <main class="is-paddingless doku-main-wrapper" id="doku-main">
+                
+
+<article class="doku-document-container clearfix">
+    <header class="hero is-light" id="doku-document-hero">
+        <div class="hero-body">
+            <h1 class="title">基本配置</h1>
+            
+            
+                <a href="https://github.com/ChrAlpha/theme-cards-docs/tree/main/source/config.md" target="_blank" rel="external nofollow noreferrer noopener" class="button is-small is-rounded is-black"><span class="icon is-small"><i class="fab fa-github"></i></span><span>帮助我们完善此页面</span></a>
+            
+        </div>
+    </header>
+    <div class="columns">
+        <div class="column is-9-tablet doku-document-wrapper">
+            <div class="content">
+                <p>请使用 Notepad++，VS Code，Vim 等编辑器打开主题配置文件。对于 Windows 用户，<strong>不建议</strong> 使用自带记事本打开配置文件，因为可能会带来难以预测的编码错误。</p>
+<h2 id="Head"><a href="#Head" class="headerlink" title="Head"></a>Head</h2><p>生成 HTML 的头部信息 <code>&lt;head&gt;</code>。</p>
+<h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">favicon:</span><br>  <span class="hljs-attr">ico:</span> <br>  <span class="hljs-attr">small:</span> <br>  <span class="hljs-attr">medium:</span> <br>  <span class="hljs-attr">apple_touch_icon:</span> <br>  <span class="hljs-attr">safari_pinned_tab:</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>ico</code>: 网站的 favicon，要求是 ico 格式</li>
+<li><code>small</code>: 网站的 favicon，要求是 png 格式、16x16 大小</li>
+<li><code>medium</code>: 网站的 favicon，要求是 png 格式、32x32 大小</li>
+<li><code>apple_touch_icon</code>: 将会显示在 iOS 上，要求是 png 格式，大小在 128px 到 192px 之间</li>
+<li><code>safari_pinned_tab</code>: 将会显示在 Safari 固定标签页、MBP Touchbar 上</li>
+</ul>
+<p>你可以在 <a href="https://realfavicongenerator.net/">这里</a> 生成上述所需的 favicon。对于不需要的配置对应留空即可。</p>
+<h3 id="opengraph"><a href="#opengraph" class="headerlink" title="opengraph"></a>opengraph</h3><p>社交链接分享协议，开启后某些社交平台（如 Twitter、Facebook、Telegram 等）粘贴文章链接便能自动生成分享卡片。也有助于爬虫更好地理解你的内容。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">opengraph:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">type:</span> <br>  <span class="hljs-attr">twitter_card:</span> <span class="hljs-string">summary_large_image</span><br>  <span class="hljs-attr">twitter_id:</span> <br>  <span class="hljs-attr">twitter_site:</span> <br>  <span class="hljs-attr">image:</span> <span class="hljs-string">page.thumbnail</span><br>  <span class="hljs-attr">fb_admins:</span> <br>  <span class="hljs-attr">fb_app_id:</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="custom-text"><a href="#custom-text" class="headerlink" title="custom_text"></a>custom_text</h3><p>可以在此处随意添加信息，所有内容会被追加到 <code>&lt;head&gt;</code> 内，例如搜索引擎所有权验证等。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">custom_head:</span> <br>  <span class="hljs-bullet">-</span> <span class="hljs-string">'&lt;meta name="xxxx-site-verification" content="xxxxxxxxxxxxxxxx" /&gt;'</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">'&lt;meta name="xxxx-site-verification" content="xxxxxxxxxxxxxxxx" /&gt;'</span><br>  <span class="hljs-string">...</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="NavBar"><a href="#NavBar" class="headerlink" title="NavBar"></a>NavBar</h2><p>导航栏配置，默认显示在页面最上方。</p>
+<h3 id="sitename"><a href="#sitename" class="headerlink" title="sitename"></a>sitename</h3><p>显示在导航栏左侧的名称。若此处留空将自动默认显示站点配置文件的 <code>title</code>。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">sitename:</span> <span class="hljs-string">[</span> <span class="hljs-string">name</span> <span class="hljs-string">]</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="menu"><a href="#menu" class="headerlink" title="menu"></a>menu</h3><p>导航栏右侧的按钮菜单，通常用于站内导航。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">menu:</span> <br>  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">首页</span><br>    <span class="hljs-attr">url:</span> <span class="hljs-string">/</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">标签</span><br>    <span class="hljs-attr">url:</span> <span class="hljs-string">/tags/</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">归档</span><br>    <span class="hljs-attr">url:</span> <span class="hljs-string">/archives/</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">友链</span><br>    <span class="hljs-attr">url:</span> <span class="hljs-string">/friends/</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">RSS</span><br>    <span class="hljs-attr">url:</span> <span class="hljs-string">/atom.xml</span><br></code></pre></td></tr></table></figure>
+
+<p>每个按钮包含两个参数：<code>name</code> 和 <code>url</code>。前者定义按钮的显示文字，后者定义点击按钮所跳转的链接。</p>
+<h3 id="sticky"><a href="#sticky" class="headerlink" title="sticky"></a>sticky</h3><p>启用此项使导航栏永远置于屏幕顶端，不随页面滚动。仅当屏幕宽度不小于 1080px 时生效。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">sticky:</span> <span class="hljs-literal">false</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Cover"><a href="#Cover" class="headerlink" title="Cover"></a>Cover</h2><p>封面配置，默认显示在<strong>除文章页以外</strong>任何页面顶部。</p>
+<h3 id="sitename-1"><a href="#sitename-1" class="headerlink" title="sitename"></a>sitename</h3><p>显示在封面的标题，如已设置 <code>avatar</code> 则不展示 <code>sitename</code> 。若此处留空将自动默认显示站点配置文件的 <code>title</code>。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">sitename:</span> <span class="hljs-string">[</span> <span class="hljs-string">title</span> <span class="hljs-string">]</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="avatar"><a href="#avatar" class="headerlink" title="avatar"></a>avatar</h3><p>站点徽标（注意此项与 <code>favicon</code> 不同），展示为以 <code>96px</code> 为直径的圆形图标。如已设置 <code>avatar</code> 则不展示 <code>sitename</code>，如果两项均设置将优先展示 <code>avatar</code>。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">avatar:</span> <span class="hljs-string">[</span> <span class="hljs-string">url</span> <span class="hljs-string">of</span> <span class="hljs-string">your</span> <span class="hljs-string">avatar</span> <span class="hljs-string">image</span> <span class="hljs-string">]</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="description"><a href="#description" class="headerlink" title="description"></a>description</h3><p>一句话介绍/个性签名，展示在 <code>sitename</code>/<code>avatar</code> 下方。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">description:</span> <span class="hljs-string">Hi,</span> <span class="hljs-string">nice</span> <span class="hljs-string">to</span> <span class="hljs-string">meet</span> <span class="hljs-string">you!</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Style"><a href="#Style" class="headerlink" title="Style"></a>Style</h2><p>用于个性化站点样式。</p>
+<h3 id="color"><a href="#color" class="headerlink" title="color"></a>color</h3><p>主要颜色样式，控制导航按钮、ToC、归档页面选中下划线颜色。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">color:</span> <br>  <span class="hljs-attr">main_color:</span> <span class="hljs-string">'#eb5757'</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="radius"><a href="#radius" class="headerlink" title="radius"></a>radius</h3><p>圆角设置，控制卡片圆角半径。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">radius:</span> <br>  <span class="hljs-attr">main_radius:</span> <span class="hljs-string">5px</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="space"><a href="#space" class="headerlink" title="space"></a>space</h3><p>基准间距，防止板块相距过密。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">space:</span> <br>  <span class="hljs-attr">main_space:</span> <span class="hljs-number">3.</span><span class="hljs-string">5rem</span><br>  <span class="hljs-attr">sm_space:</span> <span class="hljs-number">1.</span><span class="hljs-string">5rem</span>	<span class="hljs-comment"># 当屏幕宽度小于 650px 时候启用</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="highlight-hljs-prismjs"><a href="#highlight-hljs-prismjs" class="headerlink" title="highlight / hljs / prismjs"></a>highlight / hljs / prismjs</h3><p>详见 <a href="/expand/#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE">拓展插件 - 代码高亮</a>。</p>
+<h2 id="Meta"><a href="#Meta" class="headerlink" title="Meta"></a>Meta</h2><p>设置譬如默认文章标题、日期格式、文章摘要、文章尾部版权声明、自定义 footer 等信息格式。</p>
+<h3 id="title"><a href="#title" class="headerlink" title="title"></a>title</h3><p>默认文章标题，当一篇文章不含标题时自动展示此标题顶替。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">title:</span> <span class="hljs-literal">no</span><span class="hljs-string">-title</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="author"><a href="#author" class="headerlink" title="author"></a>author</h3><p>默认作者，现暂主要用于 copyright 声明。日后会考虑添加展示文章作者的功能，方便多用户站点。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">author:</span><br>  <span class="hljs-attr">name:</span> <span class="hljs-string">ChrAlpha</span><br>  <span class="hljs-attr">url:</span> <span class="hljs-string">https://chralpha.com</span><br></code></pre></td></tr></table></figure>
+
+<p>此设置可在文章 <code>front-matter</code> 中覆盖。</p>
+<h3 id="date"><a href="#date" class="headerlink" title="date"></a>date</h3><p>文章创建日期，通常展示在首页文章摘要下方与文章页标题下方。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">date:</span><br>  <span class="hljs-attr">title:</span> <span class="hljs-string">''</span><br>  <span class="hljs-attr">format:</span> <span class="hljs-string">'YYYY-MM-DD'</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>title</code>：展示在创建日期之前的内容</li>
+<li><code>format</code>：展示创建日期所用的日期格式，参照 <a href="https://momentjs.com/docs/">Moment.js 文档</a></li>
+</ul>
+<h3 id="updated"><a href="#updated" class="headerlink" title="updated"></a>updated</h3><p>文章更新日期，通常展示在文章板块最下方。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">updated:</span><br>  <span class="hljs-attr">title:</span> <span class="hljs-string">''</span><br>  <span class="hljs-attr">format:</span> <span class="hljs-string">'YYYY-MM-DD'</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>title</code>：展示在更新日期之前的内容</li>
+<li><code>format</code>：展示更新日期所用的日期格式，参照 <a href="https://momentjs.com/docs/">Moment.js 文档</a></li>
+</ul>
+<h3 id="thumbnail"><a href="#thumbnail" class="headerlink" title="thumbnail"></a>thumbnail</h3><p>文章缩略图，可在页面 <code>front-matter</code> 中通过 <code>thumbnail</code> 字段请求缩略图。当页面未被设置 <code>thumbnail</code> 字段时将自动回退至默认缩略图（<code>default</code>）。</p>
+<p>如果已使用 <a href="https://hexo.io/docs/asset-folders">资源文件夹</a>，可将 <code>relative</code> 设为 <code>true</code> 保证文章缩略图在主页、其他页面也能正常获取。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">thumbnail:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">relative:</span> <br>  <span class="hljs-attr">default:</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="expire"><a href="#expire" class="headerlink" title="expire"></a>expire</h3><p>自动为距今超过一定时间的文章添加过时提醒。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">expire:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">duration:</span> <span class="hljs-number">120</span><br></code></pre></td></tr></table></figure>
+
+<p>其中 duration 单位为「天」，超过该时长则会自动添加过时提醒。</p>
+<h3 id="auto-excerpt"><a href="#auto-excerpt" class="headerlink" title="auto_excerpt"></a>auto_excerpt</h3><p>文章默认摘要，可以（且推荐）使用 <code>&lt;!--more--&gt;</code> 标记精确截取文章部分作为摘要。</p>
+<p>如果你没有设置 <code>&lt;!--more--&gt;</code> 标记且没有设置页面 <code>description</code> 参数，则会根据 <code>auto_excerpt</code> 是否启用来决定截取指定字数（<code>length</code>）的摘要。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">auto_excerpt:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">length:</span> <span class="hljs-number">150</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="toc"><a href="#toc" class="headerlink" title="toc"></a>toc</h3><p>文章目录，展示在文章页面侧边栏，支持 h2 ~ h5 级标题（不支持 h1）。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">toc:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">list_number:</span> <span class="hljs-literal">false</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>list_number</code>：自动为目录添加编号</li>
+</ul>
+<p>在开启此处全局开关后，也可在特定页面 <a href="/write/#Front-matter">Front-matter</a> 中关闭 ToC 展示。</p>
+<blockquote>
+<p>  不支持 h1 是经过考量的。无论是为了 SEO 还是为了文章层次性，都不建议在一个页面中添加多个 h1 标题，而文章 title 已是一个 h1 标题。</p>
+</blockquote>
+<h3 id="copyright"><a href="#copyright" class="headerlink" title="copyright"></a>copyright</h3><p>版权声明，若开启将默认文章板块最下方。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">copyright:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <br>  <span class="hljs-comment"># 在作者声明和永久链接之后，可以多行，支持 markdown</span><br>  <span class="hljs-attr">custom_text:</span><br>    <span class="hljs-bullet">-</span> <span class="hljs-string">'文章默认使用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 协议进行许可，使用时请注意遵守协议。'</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>custom_text</code>：在作者声明和永久链接之后显示的内容，可以多行、支持 markdown</li>
+</ul>
+<p>可在 <code>front-matter</code> 中添加以下内容以关闭指定页面的 copyright 组件展示。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">copyright:</span> <span class="hljs-literal">false</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Footer"><a href="#Footer" class="headerlink" title="Footer"></a>Footer</h2><p>网站页脚内容，展示在网页最下方。</p>
+<h3 id="copyright-since"><a href="#copyright-since" class="headerlink" title="copyright_since"></a>copyright_since</h3><p>设置站点起始时间，用于底部 copyright 显示。</p>
+<p>例如：将此设为 <code>2018</code>，那么页脚就会显示 <code>© 2018 - 2020</code>（2020 为最后一次页面生成时间）。</p>
+<p>如果将此项留空，则单独显示 <code>© 2020</code>（2020 为最后一次页面生成时间）。</p>
+<p>如果你不想显示任何内容，请将此项设为 <code>false</code>。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">copyright_since:</span><br></code></pre></td></tr></table></figure>
+
+<h3 id="statistics"><a href="#statistics" class="headerlink" title="statistics"></a>statistics</h3><p>网站计数，目前支持 LeanCloud 与不蒜子两种方案，通过 <code>use</code> 字段选择。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">statistics:</span> <br><br>  <span class="hljs-attr">use:</span> <br><br>  <span class="hljs-attr">leancloud:</span> <br>    <span class="hljs-attr">appId:</span> <br>    <span class="hljs-attr">appKey:</span> <br>    <span class="hljs-attr">serverURL:</span> <br><br>  <span class="hljs-attr">site_uv:</span><br>    <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">before_text:</span> <span class="hljs-string">''</span> <br>    <span class="hljs-attr">after_text:</span> <span class="hljs-string">Viewers</span> <br>    <span class="hljs-attr">divider:</span> <span class="hljs-string">'&amp;nbsp;&amp;nbsp;&amp;nbsp;|'</span> <br>  <br>  <span class="hljs-attr">site_pv:</span><br>    <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">before_text:</span> <span class="hljs-string">''</span> <br>    <span class="hljs-attr">after_text:</span> <span class="hljs-string">Views</span> <br>    <span class="hljs-attr">divider:</span> <span class="hljs-string">''</span> <br>    <br>  <span class="hljs-comment"># 页面 PV</span><br>  <span class="hljs-attr">page_pv:</span><br>    <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>    <span class="hljs-attr">before_text:</span> <span class="hljs-string">''</span><br>    <span class="hljs-attr">after_text:</span> <span class="hljs-string">Views</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>use</code>：选择计数系统（目前支持 LeanCloud、不蒜子）</li>
+<li><code>leancloud</code>：选择使用 LeanCloud 所需完善的配置项</li>
+<li><code>site_uv</code>/<code>site_pv</code>：全站 Unique Viewers/Page Views<ul>
+<li><code>before_text</code>：展示在数据前的内容，支持 HTML</li>
+<li><code>after_text</code>：展示在数据后的内容，支持 HTML</li>
+<li><code>divider</code>：分隔符，支持 HTML</li>
+</ul>
+</li>
+<li><code>page_pv</code>：单个页面访问数<ul>
+<li><code>before_text</code>：展示在数据前的内容，支持 HTML</li>
+<li><code>after_text</code>：展示在数据后的内容，支持 HTML</li>
+</ul>
+</li>
+</ul>
+<h3 id="custom-text-1"><a href="#custom-text-1" class="headerlink" title="custom_text"></a>custom_text</h3><p>自定义页脚，支持 markdown，可用于展示网站备案等。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">custom_text:</span> <br>  <span class="hljs-comment"># - ''</span><br>  <span class="hljs-comment"># - ''</span><br></code></pre></td></tr></table></figure>
+
+
+            </div>
+
+            <ul class="doku-pagination">
+            <li class="page-item page-prev">
+                <a href="/start/">
+                    <div class="page-item-subtitle"><span class="icon is-small"><i class="fas fa-arrow-left"></i></span> <span>前一页</span></div>
+                    <div class="page-item-title h5">开始使用</div>
+                </a>
+            </li>
+            <li class="page-item page-next">
+                <a href="/third-party/">
+                    <div class="page-item-subtitle"><span>后一页</span> <span class="icon is-small"><i class="fas fa-arrow-right"></i></span></div>
+                    <div class="page-item-title h5">第三方服务</div>
+                </a>
+            </li></ul>
+        </div>
+        
+        <div class="column is-3 is-narrow-touch is-hidden-mobile">
+            <aside class="doku-document-toc" id="doku-document-toc">
+                <div class="doku-document-toc-content">
+                    <p class="doku-document-toc-title">目录</p>
+                    <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Head"><span class="post-toc-text">Head</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#favicon"><span class="post-toc-text">favicon</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#opengraph"><span class="post-toc-text">opengraph</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#custom-text"><span class="post-toc-text">custom_text</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#NavBar"><span class="post-toc-text">NavBar</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#sitename"><span class="post-toc-text">sitename</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#menu"><span class="post-toc-text">menu</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#sticky"><span class="post-toc-text">sticky</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Cover"><span class="post-toc-text">Cover</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#sitename-1"><span class="post-toc-text">sitename</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#avatar"><span class="post-toc-text">avatar</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#description"><span class="post-toc-text">description</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Style"><span class="post-toc-text">Style</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#color"><span class="post-toc-text">color</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#radius"><span class="post-toc-text">radius</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#space"><span class="post-toc-text">space</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#highlight-hljs-prismjs"><span class="post-toc-text">highlight &#x2F; hljs &#x2F; prismjs</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Meta"><span class="post-toc-text">Meta</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#title"><span class="post-toc-text">title</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#author"><span class="post-toc-text">author</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#date"><span class="post-toc-text">date</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#updated"><span class="post-toc-text">updated</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#thumbnail"><span class="post-toc-text">thumbnail</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#expire"><span class="post-toc-text">expire</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#auto-excerpt"><span class="post-toc-text">auto_excerpt</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#toc"><span class="post-toc-text">toc</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#copyright"><span class="post-toc-text">copyright</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Footer"><span class="post-toc-text">Footer</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#copyright-since"><span class="post-toc-text">copyright_since</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#statistics"><span class="post-toc-text">statistics</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#custom-text-1"><span class="post-toc-text">custom_text</span></a></li></ol></li></ol>
+                </div>
+            </aside>
+        </div>
+        
+    </div>
+</article>
+
+                <footer>
+    <div class="doku-footer-container is-clearfix">
+        <div class="doku-footer-item is-pulled-left">&copy; <span id="doku-copyrght-year"></span> <a href="/">Theme Cards</a></div>
+
+        <div class="doku-footer-item is-pulled-right">Powered by <a href="https://hexo.io" target="_blank" rel="external noopenner nofollow">Hexo</a> & <a href="https://github.com/SukkaW/hexo-theme-doku" target="_blank" rel="external noopenner nofollow">Doku</a></div>
+    </div>
+</footer>
+
+            </main>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/stickyfilljs@2.1.0/dist/stickyfill.min.js"></script>
+    <script src="/theme-doku/js/doku.js"></script>
+    
+    <script>window.ga_tid="UA-149861608-2",window.ga_api="https://theme-cards.ichr.me/cfga/jquery.js"</script>
+    <script src="https://cdn.jsdelivr.net/npm/cfga@1.0.3" async=""></script>
+</body>
+
+</html>

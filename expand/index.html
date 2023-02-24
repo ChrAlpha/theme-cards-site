@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+<title>拓展插件 | Theme Cards</title>
+<meta name="generator" content="Hexo 4.2.1">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/assets/icon/site.webmanifest">
+<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.16.2/styles/github.min.css">
+<link rel="stylesheet" href="/theme-doku/css/doku.css">
+
+</head>
+
+<body>
+    
+
+<nav id="doku-navbar" class="navbar is-spaced has-shadow">
+    <div class="container">
+        <div class="navbar-brand">
+            <!-- burger btn -->
+            <a role="button" class="navbar-burger burger" id="doku-sidebar-toggle">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+
+            <a class="navbar-item" href="http://theme-cards.ichr.me">
+                <h1 class="doku-navbar-title">
+                    <img src="/assets/icon/android-chrome-96x96.png" height="28">
+                    <span class="is-size-4">Theme Cards</span>
+                </h1>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                
+                    <a class="navbar-item" href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank">
+                        
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        
+                        
+                            <span>主题源码</span>
+                        
+                    </a>
+                
+                    <a class="navbar-item" href="https://github.com/ChrAlpha/theme-cards-docs" target="_blank">
+                        
+                        
+                            <span>使用文档</span>
+                        
+                    </a>
+                
+                    <a class="navbar-item" href="https://theme-cards.ichr.me/demo/" target="_blank">
+                        
+                        
+                            <span>主题 Demo</span>
+                        
+                    </a>
+                
+                <!-- navbar link -->
+                <!--<a class="navbar-item">
+                Home
+            </a>-->
+            </div>
+            <!-- i18n switch -->
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="dropdown is-right is-hoverable">
+                        <div class="dropdown-trigger">
+                            <button class="button" id="navbar-i18n-btn">
+                                <span class="icon is-small">
+                                    <i class="fas fa-globe-americas" aria-hidden="true"></i>
+                                </span>
+                                <span>Language</span>
+                                <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <a href="/expand/" class="dropdown-item">
+                                    简体中文
+                                </a>
+                                <a href="/en/expand/" class="dropdown-item">
+                                    English
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+        <section class="main-content">
+            
+
+
+<aside class="doku-sidebar" id="doku-sidebar">
+    <div class="doku-sidebar-content">
+        <div class="menu">
+            
+                <ul class="menu-list is-hidden-desktop">
+                    
+                        
+                            <li><a href="https://github.com/ChrAlpha/hexo-theme-cards">主题源码</span></a></li>
+                        
+                    
+                        
+                            <li><a href="https://github.com/ChrAlpha/theme-cards-docs">使用文档</span></a></li>
+                        
+                    
+                        
+                            <li><a href="https://theme-cards.ichr.me/demo/">主题 Demo</span></a></li>
+                        
+                    
+                </ul>
+            
+            <hr class="is-hidden-desktop">
+            
+                
+                    <ul class="menu-list">
+                        
+                            <li><a  href="/start/">开始使用</a></li>
+                        
+                            <li><a  href="/config/">基本配置</a></li>
+                        
+                            <li><a  href="/third-party/">第三方服务</a></li>
+                        
+                            <li><a  href="/expand/">拓展插件</a></li>
+                        
+                            <li><a  href="/expert/">进阶使用</a></li>
+                        
+                            <li><a  href="/pages/">独立页面</a></li>
+                        
+                            <li><a  href="/write/">开始创作</a></li>
+                        
+                    </ul>
+                
+            
+        </div>
+    </div>
+</aside>
+
+            <main class="is-paddingless doku-main-wrapper" id="doku-main">
+                
+
+<article class="doku-document-container clearfix">
+    <header class="hero is-light" id="doku-document-hero">
+        <div class="hero-body">
+            <h1 class="title">拓展插件</h1>
+            
+            
+                <a href="https://github.com/ChrAlpha/theme-cards-docs/tree/main/source/expand.md" target="_blank" rel="external nofollow noreferrer noopener" class="button is-small is-rounded is-black"><span class="icon is-small"><i class="fab fa-github"></i></span><span>帮助我们完善此页面</span></a>
+            
+        </div>
+    </header>
+    <div class="columns">
+        <div class="column is-9-tablet doku-document-wrapper">
+            <div class="content">
+                <h2 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h2><p>Hexo 内置两款代码高亮插件——highlight.js 与 prismjs，而 highlight.js 又分为 Hexo 定制 highlight.js 与原生 highlight.js。这样就对应三个版本：Hexo 定制 highlight.js（<code>highlight</code>）、原生 highlight.js（<code>hljs</code>）与 prismjs（<code>prismjs</code>）。</p>
+<h3 id="highlight"><a href="#highlight" class="headerlink" title="highlight"></a>highlight</h3><p>在<strong>站点配置文件</strong>中配置 <a href="https://hexo.io/zh-cn/docs/syntax-highlight#config-yml"><code>highlight</code></a> 字段。请确保 <code>enable</code> 为 <code>true</code> 且 <code>hljs</code> 为 <code>false</code>，并将 <code>primsjs.enable</code> 设为 <code>false</code>。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs plain">highlight:<br>  enable: true<br>  line_number: false<br>  auto_detect: false<br>  tab_replace: &#39;&#39;<br>  wrap: true<br>  hljs: false<br>prismjs:<br>  enable: false<br>  preprocess: true<br>  line_number: false<br>  tab_replace: &#39;&#39;<br></code></pre></td></tr></table></figure>
+
+<p>Hexo 定制 highlight.js 是无法直接使用 highlight.js 主题的，为此「Cards」主题定制了 代码高亮主题，并为更贴合主题样式做了些许改动。</p>
+<p>由于许多代码高亮主题在亮色/暗色模式下可读性差异较大，在主题配置文件 <code>style</code> 字段下可以分别设置亮色/暗色模式下使用的代码高亮主题。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">style:</span> <br>  <br>  <span class="hljs-attr">highlight:</span> <br>    <span class="hljs-attr">default:</span> <br>    <span class="hljs-attr">darkmode:</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>default</code>：默认代码高亮主题</li>
+<li><code>darkmode</code>：暗色模式下代码高亮主题</li>
+</ul>
+<p>这里只需填入代码高亮主题的名称，无需填入路径、后缀等，「Cards」在请求时会将其补全。而在 <code>vendors.highlight</code> 中可配置存放代码高亮主题的文件夹路径。</p>
+<h3 id="hljs"><a href="#hljs" class="headerlink" title="hljs"></a>hljs</h3><p>在<strong>站点配置文件</strong>中配置 <a href="https://hexo.io/zh-cn/docs/syntax-highlight#config-yml"><code>highlight</code></a> 字段。请确保 <code>enable</code> 与 <code>hljs</code> 均为 <code>true</code> 且 <code>line_number</code> 与 <code>wrap</code> 均为 <code>false</code>，并将 <code>primsjs.enable</code> 设为 <code>false</code>。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">highlight:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">line_number:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">auto_detect:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">tab_replace:</span> <span class="hljs-string">''</span><br>  <span class="hljs-attr">wrap:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">hljs:</span> <span class="hljs-literal">true</span><br><span class="hljs-attr">prismjs:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">preprocess:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">line_number:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">tab_replace:</span> <span class="hljs-string">''</span><br></code></pre></td></tr></table></figure>
+
+<p>原生 highlight.js 可以直接使用 highlight.js 提供的 <a href="https://github.com/highlightjs/highlight.js/tree/master/src/styles">主题</a>。同前者一致，在主题配置文件 <code>style.hljs</code> 字段下可以分别设置亮色/暗色模式下使用的代码高亮主题、在 <code>vendors.hljs</code> 中可配置存放代码高亮主题的文件夹路径。</p>
+<h3 id="prismjs"><a href="#prismjs" class="headerlink" title="prismjs"></a>prismjs</h3><p>在<strong>站点配置文件</strong>中配置 <a href="https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS"><code>prismjs</code></a> 字段。请确保 <code>enable</code> 与 <code>preprocess</code> 均为 <code>true</code>，并将 <code>highlight.enable</code> 设为 <code>false</code>。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">highlight:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">line_number:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">auto_detect:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">tab_replace:</span> <span class="hljs-string">''</span><br>  <span class="hljs-attr">wrap:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">hljs:</span> <span class="hljs-literal">true</span><br><span class="hljs-attr">prismjs:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">preprocess:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">line_number:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">tab_replace:</span> <span class="hljs-string">''</span><br></code></pre></td></tr></table></figure>
+
+<p>prismjs 支持直接使用其提供的 <a href="https://github.com/PrismJS/prism/tree/master/themes">主题</a>。在主题配置文件 <code>style</code> 字段下可以分别设置亮色/暗色模式下使用的代码高亮主题。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">style:</span> <br>  <br>  <span class="hljs-attr">prismjs:</span> <br>    <span class="hljs-attr">default:</span> <br>    <span class="hljs-attr">darkmode:</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>default</code>：默认代码高亮主题</li>
+<li><code>darkmode</code>：暗色模式下代码高亮主题</li>
+</ul>
+<p>同样的，这里只需填入代码高亮主题的名称，无需填入路径、后缀等，「Cards」在请求时会将其补全。而在 <code>vendors.prismjs</code> 中可配置存放代码高亮主题的文件夹路径。</p>
+<h2 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h2><p>在需要渲染数学公式的文章 <code>front-matter</code> 中添加：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-meta">---</span><br><span class="hljs-attr">mathjax:</span> <span class="hljs-literal">true</span><br><span class="hljs-meta">---</span><br></code></pre></td></tr></table></figure>
+
+<blockquote>
+<p>  如果你之前有更换过渲染器，请根据自身实际情况调整。</p>
+</blockquote>
+<h2 id="图片懒加载"><a href="#图片懒加载" class="headerlink" title="图片懒加载"></a>图片懒加载</h2><p>「Cards」内置图片 Lazyload 插件，为避免冲突请勿安装其他插件。</p>
+<p>从「Cards」v1.1.0 开始，<strong>你无需将 <code>lazyload</code> 配置项移动至站点配置文件，直接修改主题配置文件便可使相关配置生效。</strong></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">lazyload:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">onlypost:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">loadingImage:</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>onlypost</code>: 仅在文章页面启用图片懒加载</li>
+<li><code>loadingImage</code>：懒加载占位图</li>
+</ul>
+<h2 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h2><p>「Cards」主题内置了站内搜索功能，为避免冲突请勿安装其他插件。在启用之前你需要为其单独 <a href="/pages/#搜索页面">生成一个页面</a>。</p>
+<p>从「Cards」v1.1.0 开始，<strong>你无需将 <code>search</code> 配置项移动至站点配置文件，直接修改主题配置文件便可使相关配置生效。</strong></p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">search:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">path:</span> <span class="hljs-string">search.json</span><br>  <span class="hljs-attr">field:</span> <span class="hljs-string">All</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>path</code>：生成网站数据库路径</li>
+<li><code>field</code>：数据获取范围（Page | Post | All）</li>
+</ul>
+<h2 id="标签插件"><a href="#标签插件" class="headerlink" title="标签插件"></a>标签插件</h2><p>标签插件，丰富引用块样式。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs plain">note: true<br></code></pre></td></tr></table></figure>
+
+<p>在文章中使用此插件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs plain">&#123;% note [ type ] 自定义小标题 %&#125;<br><br>自定义正文<br><br>&#123;% endnote %&#125;<br></code></pre></td></tr></table></figure>
+
+<p>其中 <code>[ type ]</code> 可选填：<code>info</code>、<code>important</code>、<code>tip</code>、<code>caution</code>、<code>warning</code>，分别对应 5 种样式。</p>
+<p>可前往 <a href="/demo/">主题 Demo</a> 查看 <a href="/demo/2020/06/tag-plugin-note/">样式预览</a>。</p>
+<h2 id="内容折叠插件"><a href="#内容折叠插件" class="headerlink" title="内容折叠插件"></a>内容折叠插件</h2><p>通过内容折叠插件折叠文章内任一内容片段。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">fold:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">summary:</span> <br>  <span class="hljs-attr">motion:</span><br></code></pre></td></tr></table></figure>
+
+<ul>
+<li><code>summary</code>：默认折叠标题</li>
+<li><code>motion</code>：折叠/展开时添加纵向滑动动画</li>
+</ul>
+<p>在文章中使用本插件：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs plain">&#123;% fold 折叠摘要 %&#125;<br><br>自定义正文<br><br>&#123;% endfold %&#125;<br></code></pre></td></tr></table></figure>
+
+<p>如果你希望某一折叠框默认展开：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs plain">&#123;% fold open, 折叠摘要 %&#125;<br><br>自定义正文<br><br>&#123;% endfold %&#125;<br></code></pre></td></tr></table></figure>
+
+<h2 id="fancybox"><a href="#fancybox" class="headerlink" title="fancybox"></a>fancybox</h2><p>图片点击放大插件，可以前往 Demo 中的图片测试页面查看效果。由于「Cards」定制了自己的 Lazyload 功能，所以即便开启图片懒加载也能很好地兼容 fancybox。此插件依赖 jQuery。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">fancybox:</span> <br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">auto:</span> <span class="hljs-literal">false</span><br></code></pre></td></tr></table></figure>
+
+<p>设置 <code>enable: true</code> 开启 fancybox。默认不应用到所有图片，请在需要使用 fancybox 的包裹在 <code>&lt;fancybox&gt;</code> 标记内，例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><code class="hljs plain">&lt;fancybox&gt;<br>![](path&#x2F;to&#x2F;image)<br>&lt;&#x2F;fancybox&gt;<br></code></pre></td></tr></table></figure>
+
+<p>而如果将 <code>auto: true</code> 开启，则自动应用到所有图片，无需包裹在 <code>&lt;fancybox&gt;</code> 内。</p>
+<h2 id="返回顶部"><a href="#返回顶部" class="headerlink" title="返回顶部"></a>返回顶部</h2><p>返回顶部按钮。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">back_to_top:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="暗色模式"><a href="#暗色模式" class="headerlink" title="暗色模式"></a>暗色模式</h2><p>暗色模式，通过访问者终端 <code>prefers-color-scheme</code> 参数控制，亦添加手动切换按钮。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">darkmode:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure>
+
+            </div>
+
+            <ul class="doku-pagination">
+            <li class="page-item page-prev">
+                <a href="/third-party/">
+                    <div class="page-item-subtitle"><span class="icon is-small"><i class="fas fa-arrow-left"></i></span> <span>前一页</span></div>
+                    <div class="page-item-title h5">第三方服务</div>
+                </a>
+            </li>
+            <li class="page-item page-next">
+                <a href="/expert/">
+                    <div class="page-item-subtitle"><span>后一页</span> <span class="icon is-small"><i class="fas fa-arrow-right"></i></span></div>
+                    <div class="page-item-title h5">进阶使用</div>
+                </a>
+            </li></ul>
+        </div>
+        
+        <div class="column is-3 is-narrow-touch is-hidden-mobile">
+            <aside class="doku-document-toc" id="doku-document-toc">
+                <div class="doku-document-toc-content">
+                    <p class="doku-document-toc-title">目录</p>
+                    <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#代码高亮"><span class="post-toc-text">代码高亮</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#highlight"><span class="post-toc-text">highlight</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#hljs"><span class="post-toc-text">hljs</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#prismjs"><span class="post-toc-text">prismjs</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#数学公式"><span class="post-toc-text">数学公式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#图片懒加载"><span class="post-toc-text">图片懒加载</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#站内搜索"><span class="post-toc-text">站内搜索</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#标签插件"><span class="post-toc-text">标签插件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#内容折叠插件"><span class="post-toc-text">内容折叠插件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#fancybox"><span class="post-toc-text">fancybox</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#返回顶部"><span class="post-toc-text">返回顶部</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#暗色模式"><span class="post-toc-text">暗色模式</span></a></li></ol>
+                </div>
+            </aside>
+        </div>
+        
+    </div>
+</article>
+
+                <footer>
+    <div class="doku-footer-container is-clearfix">
+        <div class="doku-footer-item is-pulled-left">&copy; <span id="doku-copyrght-year"></span> <a href="/">Theme Cards</a></div>
+
+        <div class="doku-footer-item is-pulled-right">Powered by <a href="https://hexo.io" target="_blank" rel="external noopenner nofollow">Hexo</a> & <a href="https://github.com/SukkaW/hexo-theme-doku" target="_blank" rel="external noopenner nofollow">Doku</a></div>
+    </div>
+</footer>
+
+            </main>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/stickyfilljs@2.1.0/dist/stickyfill.min.js"></script>
+    <script src="/theme-doku/js/doku.js"></script>
+    
+    <script>window.ga_tid="UA-149861608-2",window.ga_api="https://theme-cards.ichr.me/cfga/jquery.js"</script>
+    <script src="https://cdn.jsdelivr.net/npm/cfga@1.0.3" async=""></script>
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+<meta name="robots" content="noindex,nofollow">
+
+<title>「Cards」v1.0.0 更新指南 | Theme Cards</title>
+<meta name="generator" content="Hexo 4.2.1">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+<link rel="manifest" href="/assets/icon/site.webmanifest">
+<link rel="mask-icon" href="/assets/icon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.16.2/styles/github.min.css">
+<link rel="stylesheet" href="/theme-doku/css/doku.css">
+
+</head>
+
+<body>
+    
+
+<nav id="doku-navbar" class="navbar is-spaced has-shadow">
+    <div class="container">
+        <div class="navbar-brand">
+            <!-- burger btn -->
+            <a role="button" class="navbar-burger burger" id="doku-sidebar-toggle">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+
+            <a class="navbar-item" href="http://theme-cards.ichr.me">
+                <h1 class="doku-navbar-title">
+                    <img src="/assets/icon/android-chrome-96x96.png" height="28">
+                    <span class="is-size-4">Theme Cards</span>
+                </h1>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                
+                    <a class="navbar-item" href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank">
+                        
+                            <span class="icon">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        
+                        
+                            <span>主题源码</span>
+                        
+                    </a>
+                
+                    <a class="navbar-item" href="https://github.com/ChrAlpha/theme-cards-docs" target="_blank">
+                        
+                        
+                            <span>使用文档</span>
+                        
+                    </a>
+                
+                    <a class="navbar-item" href="https://theme-cards.ichr.me/demo/" target="_blank">
+                        
+                        
+                            <span>主题 Demo</span>
+                        
+                    </a>
+                
+                <!-- navbar link -->
+                <!--<a class="navbar-item">
+                Home
+            </a>-->
+            </div>
+            <!-- i18n switch -->
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="dropdown is-right is-hoverable">
+                        <div class="dropdown-trigger">
+                            <button class="button" id="navbar-i18n-btn">
+                                <span class="icon is-small">
+                                    <i class="fas fa-globe-americas" aria-hidden="true"></i>
+                                </span>
+                                <span>Language</span>
+                                <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <a href="/update/v1-0-0/" class="dropdown-item">
+                                    简体中文
+                                </a>
+                                <a href="/en/update/v1-0-0/" class="dropdown-item">
+                                    English
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container-fluid">
+        <section class="main-content">
+            
+
+
+<aside class="doku-sidebar" id="doku-sidebar">
+    <div class="doku-sidebar-content">
+        <div class="menu">
+            
+                <ul class="menu-list is-hidden-desktop">
+                    
+                        
+                            <li><a href="https://github.com/ChrAlpha/hexo-theme-cards">主题源码</span></a></li>
+                        
+                    
+                        
+                            <li><a href="https://github.com/ChrAlpha/theme-cards-docs">使用文档</span></a></li>
+                        
+                    
+                        
+                            <li><a href="https://theme-cards.ichr.me/demo/">主题 Demo</span></a></li>
+                        
+                    
+                </ul>
+            
+            <hr class="is-hidden-desktop">
+            
+                
+                    <ul class="menu-list">
+                        
+                            <li><a  href="/start/">开始使用</a></li>
+                        
+                            <li><a  href="/config/">基本配置</a></li>
+                        
+                            <li><a  href="/third-party/">第三方服务</a></li>
+                        
+                            <li><a  href="/expand/">拓展插件</a></li>
+                        
+                            <li><a  href="/expert/">进阶使用</a></li>
+                        
+                            <li><a  href="/pages/">独立页面</a></li>
+                        
+                            <li><a  href="/write/">开始创作</a></li>
+                        
+                    </ul>
+                
+            
+        </div>
+    </div>
+</aside>
+
+            <main class="is-paddingless doku-main-wrapper" id="doku-main">
+                
+
+<article class="doku-document-container clearfix">
+    <header class="hero is-light" id="doku-document-hero">
+        <div class="hero-body">
+            <h1 class="title">「Cards」v1.0.0 更新指南</h1>
+            
+            
+                <a href="https://github.com/ChrAlpha/theme-cards-docs/tree/main/source/en/update-wiki/v1-0-0.md" target="_blank" rel="external nofollow noreferrer noopener" class="button is-small is-rounded is-black"><span class="icon is-small"><i class="fab fa-github"></i></span><span>帮助我们完善此页面</span></a>
+            
+        </div>
+    </header>
+    <div class="columns">
+        <div class="column is-9-tablet doku-document-wrapper">
+            <div class="content">
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>开发三个月，历经三百余条 Commit，「Cards」的版本号终于被定为 <code>1.0.0</code>，也就是第一个正式版。</p>
+<p>至此，「Cards」支持的特性已有：</p>
+<ul>
+<li>Disqus、Valine、MiniValine、Gitalk、Gitment 等 8 种评论系统</li>
+<li>Google Analytics 等 4 种统计系统</li>
+<li>内置站内搜索</li>
+<li>图片懒加载、评论系统懒加载</li>
+<li>三款代码高亮插件</li>
+<li>LeanCloud/不蒜子计数</li>
+<li>……</li>
+</ul>
+<p>当然，「Cards」一直在避免堆砌功能，对新特性的态度保持克制。而且这次正式版，更重要的意义在于重构源码，使主题源码逻辑层次更加清晰，方便更新与二次开发。</p>
+<p>如果可以的话，我们建议你重新获取主题并参考文档进行配置，以便了解主题新特性。如果你仍希望从旧版本手动升级，你可能需要了解以下几点。</p>
+<h2 id="布局篇"><a href="#布局篇" class="headerlink" title="布局篇"></a>布局篇</h2><p>「Cards」在 v1.0.0 中彻底移除了本用于控制页面布局的 <code>layout</code> 字段，原因是该设置不够直观，许多人也不愿配置。</p>
+<p>移除后，你仍然可以在其他地方控制某些板块的展示与否，例如在 <code>meta</code> 字段中控制 thumbnail、ToC、文章过时提醒等。</p>
+<p>单独提醒下 thumbnail，这次更新为 thumbnail 带来许多变动。首先是 thumbnail 会按长宽比 <code>2.5</code> 的比例裁切且宽度填满。其次是现在可在 <code>meta.thumbnail.default</code> 设置默认缩略图，当页面 <code>thumbnail</code> 字段为空时自动回退至 <code>meta.thumbnail.default</code> 中的参数。你也可以在 <code>meta.thumbnail.default</code> 填入随机图片 API，为不想单独设置缩略图的页面采用随机封面。</p>
+<p><img src="/update-wiki/v1-0-0/thumbnail-1.png" alt=""></p>
+<h2 id="插件篇"><a href="#插件篇" class="headerlink" title="插件篇"></a>插件篇</h2><p>「Cards」v1.0.0 起移除 <code>optimize</code> 字段，该字段下的所有插件配置字段将直接暴露在主题配置下。例如原来的 <code>optimize.lazyload.lazyloadImage</code> 移动到 <code>lazyload.lazyloadImage</code>。</p>
+<p>部分插件将直接在插件字段下控制，例如 <code>darkmode.enable: true</code> =&gt; <code>darkmode: true</code>、<code>note.enable: true</code> =&gt; <code>note: true</code>。</p>
+<p>另外，「返回顶部」功能不再提供平滑滚动和跳跃定位两种选择，统一引入 JavaScript 实现平滑滚动返回顶部。</p>
+<p>懒加载插件（<code>lazyload</code>）以及本地搜索插件（<code>search</code>）配置项均需移动至站点配置文件中才能生效。为避免冲突，将无视主题配置中的相关配置，只由站点配置文件中的相关配置控制。</p>
+<p>与以往默认开启懒加载与暗色模式等不同，今后所有插件默认关闭，如有需要请手动开启。</p>
+<h2 id="评论插件篇"><a href="#评论插件篇" class="headerlink" title="评论插件篇"></a>评论插件篇</h2><p>从「Cards」v1.0.0 起不再采用 <code>enable</code> 控制评论插件，而是采用 <code>use</code>。</p>
+<p>例如你想启用 Disqus 评论插件，原来你是需要配置 <code>comments.enable: ture</code> 和 <code>comments.disqus.enable: true</code>、并补全 <code>comments.disqus</code> 相关配置，现在只需要配置 <code>comments.use: disqus</code> 然后补全 <code>comments.disqus</code> 相关配置即可。</p>
+<p>若无特殊原因，我们还是不建议同时开启两个及以上评论插件。</p>
+<p>由于评论区置于页面主要内容板块之后，而某些评论插件资源过大，可能会阻塞主要内容的渲染。从「Cards」v1.0.0 起所有评论插件都会采用懒加载。</p>
+<h2 id="高亮插件篇"><a href="#高亮插件篇" class="headerlink" title="高亮插件篇"></a>高亮插件篇</h2><p>从 Hexo 5 开始支持 PrismJS 代码高亮插件，算上 Hexo 定制 highlight.js 与原生 highlight.js 总共三款代码高亮插件可供选择。</p>
+<p>Hexo 默认采用 Hexo 定制的 highlight.js，而此插件处理后的页面是不能直接采用 highlight.js 提供的样式的，「Cards」中 <code>source/css/highlight/</code> 文件夹下正是修改过的 highlight.js 主题样式，兼容的同时更好地贴合了主题样式。最明显的一点就是代码块会横向占满内容板块的边距。</p>
+<p><img src="/update-wiki/v1-0-0/highlight-1.png" alt=""></p>
+<p>此外还有原生 highlight.js 与 PrismJS，为不使主题过于臃肿，均跨域请求样式文件。默认向公共 CDN <a href="https://www.jsdelivr.com">jsDelivr</a> 请求。你也可以在 <code>vendors</code> 中的 <code>highlight</code>、<code>hljs</code>、<code>prismjs</code> 进行对应的 CDN 配置。</p>
+<h2 id="其他配置项"><a href="#其他配置项" class="headerlink" title="其他配置项"></a>其他配置项</h2><p>虽说导航菜单在 v0.5.0 便移至顶部导航栏，但配置项却一直还在 <code>cover</code> 中。从「Cards」v1.0.0 起 <code>cover.menu</code> 移至 <code>navbar.menu</code>。</p>
+<p>且由于页脚新特性较为复杂，从「Cards」v1.0.0 起，<code>meta.footer</code> 移至 <code>footer</code>。该字段下不单单控制自定义页脚，还有页面统计、Copyright 时间显示等功能。更多细节请参考 <a href="/config/#Footer">主题文档</a> 进行相关配置。</p>
+
+            </div>
+
+            <ul class="doku-pagination">
+            <li class="page-item page-next">
+                <a href="/start/">
+                    <div class="page-item-subtitle"><span>后一页</span> <span class="icon is-small"><i class="fas fa-arrow-right"></i></span></div>
+                    <div class="page-item-title h5">开始使用</div>
+                </a>
+            </li></ul>
+        </div>
+        
+        <div class="column is-3 is-narrow-touch is-hidden-mobile">
+            <aside class="doku-document-toc" id="doku-document-toc">
+                <div class="doku-document-toc-content">
+                    <p class="doku-document-toc-title">目录</p>
+                    <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#前言"><span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#布局篇"><span class="post-toc-text">布局篇</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#插件篇"><span class="post-toc-text">插件篇</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#评论插件篇"><span class="post-toc-text">评论插件篇</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#高亮插件篇"><span class="post-toc-text">高亮插件篇</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#其他配置项"><span class="post-toc-text">其他配置项</span></a></li></ol>
+                </div>
+            </aside>
+        </div>
+        
+    </div>
+</article>
+
+                <footer>
+    <div class="doku-footer-container is-clearfix">
+        <div class="doku-footer-item is-pulled-left">&copy; <span id="doku-copyrght-year"></span> <a href="/">Theme Cards</a></div>
+
+        <div class="doku-footer-item is-pulled-right">Powered by <a href="https://hexo.io" target="_blank" rel="external noopenner nofollow">Hexo</a> & <a href="https://github.com/SukkaW/hexo-theme-doku" target="_blank" rel="external noopenner nofollow">Doku</a></div>
+    </div>
+</footer>
+
+            </main>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/stickyfilljs@2.1.0/dist/stickyfill.min.js"></script>
+    <script src="/theme-doku/js/doku.js"></script>
+    
+    <script>window.ga_tid="UA-149861608-2",window.ga_api="https://theme-cards.ichr.me/cfga/jquery.js"</script>
+    <script src="https://cdn.jsdelivr.net/npm/cfga@1.0.3" async=""></script>
+</body>
+
+</html>
